@@ -1,0 +1,30 @@
+{
+    "name" : "node-red-contrib-schneider-metsepm3250",
+    "version"      : "0.0.1",
+    "description"  : "Node to read Schneider PM3250 over Modbus TCP/IP",
+    "author": "Nicolò Toscani",
+    
+    "node-red" : {
+        "nodes": {
+            "pm3250": "pm3250.js",
+            "extractor": "extractor.js"
+        }
+    },
+    "main": "pm3250.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node-red",
+    "schneider",
+    "pm3250",
+    "modbus",
+    "iot",
+    "link150"
+  ],
+  "bugs": {
+    "email": "toscani.nicolo90@gmail.com"
+  },
+  "homepage": "https://github.com/NicoloToscani/node-red-contrib-schneider-pm3250#readme"
+
+}
