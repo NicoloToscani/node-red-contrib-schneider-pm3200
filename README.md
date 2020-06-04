@@ -1,6 +1,6 @@
 # node-red-contrib-schneider-pm3200
 A Node-RED node to read Schneider PM3200 series over Modbus TCP/IP
-## Node-RED configurator to read Schneider PM3200 over Modbus TCP/IP through Ethernet gateway Link150.
+## Node-RED configurator to read Schneider PM3200 over Modbus TCP/IP through Ethernet gateway.
 
 ## How to use
 
