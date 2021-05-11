@@ -1,5 +1,5 @@
 {
-  "name": "red-contrib-schneider-metsepm3200",
+  "name": "node-red-contrib-schneider-metsepm3200",
   "version": "0.0.3-security",
   "description": "Node to read Schneider PM3200 over Modbus TCP/IP",
   "author": "Nicolò Toscani",
