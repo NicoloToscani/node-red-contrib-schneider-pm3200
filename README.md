@@ -1,4 +1,4 @@
-# node-red-contrib-schneider-pm3200
+# node-red-contrib-schneider-metsepm3200
 A Node-RED node to read Schneider PM3200 series over Modbus TCP/IP
 ## Node-RED configurator to read Schneider PM3200 over Modbus TCP/IP through Ethernet gateway.
 
