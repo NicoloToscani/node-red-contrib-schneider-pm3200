@@ -1,17 +1,16 @@
 {
-    "name" : "node-red-contrib-schneider-metsepm3200",
-    "version"      : "0.0.1",
-    "description"  : "Node to read Schneider PM3200 over Modbus TCP/IP",
-    "author": "Nicolò Toscani",
-    "license": "MIT",
-    
-    "node-red" : {
-        "nodes": {
-            "pm3200": "pm3200.js",
-            "converter": "converter.js"
-        }
-    },
-    "main": "pm3200.js",
+  "name": "red-contrib-schneider-metsepm3200",
+  "version": "0.0.2",
+  "description": "Node to read Schneider PM3200 over Modbus TCP/IP",
+  "author": "Nicolò Toscani",
+  "license": "MIT",
+  "node-red": {
+    "nodes": {
+      "pm3200": "pm3200.js",
+      "converter": "converter.js"
+    }
+  },
+  "main": "pm3200.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,6 +25,9 @@
   "bugs": {
     "email": "toscani.nicolo90@gmail.com"
   },
-  "homepage": "https://github.com/NicoloToscani/node-red-contrib-schneider-pm3200#readme"
-
+  "homepage": "https://github.com/NicoloToscani/node-red-contrib-schneider-pm3200#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoloToscani/node-red-contrib-schneider-pm3200.git"
+  }
 }
