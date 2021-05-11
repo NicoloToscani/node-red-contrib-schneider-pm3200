@@ -25,9 +25,9 @@
   "bugs": {
     "email": "toscani.nicolo90@gmail.com"
   },
-  "homepage": "https://github.com/NicoloToscani/node-red-contrib-schneider-pm3200#readme",
+  "homepage": "https://github.com/NicoloToscani/node-red-contrib-schneider-metsepm3200#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NicoloToscani/node-red-contrib-schneider-pm3200.git"
+    "url": "git+https://github.com/NicoloToscani/node-red-contrib-schneider-metsepm3200.git"
   }
 }
