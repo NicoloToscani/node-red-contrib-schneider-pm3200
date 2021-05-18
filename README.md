@@ -9,6 +9,8 @@ Use the `pm3200` node to configure which information you want to request from th
 
 Wire the output of the `pm3200` to the input of the `Modbus Flex Getter`.
 
+Enable check box `Keep Msg Properties` in the `Modbus Flex Getter` properties.
+
 ### converter node
 Use the `converter` node to convert the values from the modbus response into human readable numbers.
 
