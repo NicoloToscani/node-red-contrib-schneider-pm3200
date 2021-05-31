@@ -19,7 +19,7 @@ module.exports = function(RED) {
             break;
             case "int64":
                 //msg.payload = (((((msg.payload.data[0] * 65536 ) + msg.payload.data[1] ) * 65536 ) + msg.payload.data[2] ) * 65536 + msg.payload.data[3])/1000;
-                msg.payload = msg.payload.buffer.readBigUInt64BE(0) / 1000;
+                msg.payload = msg.payload.buffer.readBigInt64BE(0);
                 node.send(msg);
             break;
             default:
