@@ -565,6 +565,182 @@ module.exports = function(RED) {
                   res.topic = "toEnergyAppExp";
                   res.format = "int64";
                 break;
+                case 50:
+                case "paEnergyActImp":
+                  res.payload = {
+                      fc: 3,
+                      unitid: settings.unitId,
+                      address: 3255,
+                      quantity: 4,
+                      };
+                  res.topic = "paEnergyActImp";
+                  res.format = "int64";
+                break;
+                case 51:
+                case "paEnergyReactImp":
+                  res.payload = {
+                      fc: 3,
+                      unitid: settings.unitId,
+                      address: 3271,
+                      quantity: 4,
+                      };
+                  res.topic = "paEnergyReactImp";
+                  res.format = "int64";
+                break;
+                case 52:
+                case "paEnergyAppImp":
+                  res.payload = {
+                      fc: 3,
+                      unitid: settings.unitId,
+                      address: 3287,
+                      quantity: 4,
+                      };
+                  res.topic = "paEnergyAppImp";
+                  res.format = "int64";
+                break;
+                case 53:
+                case "activeEnergyImpP1":
+                  res.payload = {
+                      fc: 3,
+                      unitid: settings.unitId,
+                      address: 3517,
+                      quantity: 4,
+                      };
+                  res.topic = "activeEnergyImpP1";
+                  res.format = "int64";
+                break;
+                case 54:
+                case "activeEnergyImpP2":
+                  res.payload = {
+                      fc: 3,
+                      unitid: settings.unitId,
+                      address: 3521,
+                      quantity: 4,
+                      };
+                  res.topic = "activeEnergyImpP2";
+                  res.format = "int64";
+                break;
+                case 55:
+                case "activeEnergyImpP3":
+                  res.payload = {
+                      fc: 3,
+                      unitid: settings.unitId,
+                      address: 3525,
+                      quantity: 4,
+                      };
+                  res.topic = "activeEnergyImpP3";
+                  res.format = "int64";
+                break;
+                case 56:
+                case "reactiveEnergyImpP1":
+                  res.payload = {
+                      fc: 3,
+                      unitid: settings.unitId,
+                      address: 3529,
+                      quantity: 4,
+                      };
+                  res.topic = "reactiveEnergyImpP1";
+                  res.format = "int64";
+                break;
+                case 57:
+                case "reactiveEnergyImpP2":
+                  res.payload = {
+                      fc: 3,
+                      unitid: settings.unitId,
+                      address: 3533,
+                      quantity: 4,
+                      };
+                  res.topic = "reactiveEnergyImpP2";
+                  res.format = "int64";
+                break;
+                case 58:
+                case "reactiveEnergyImpP3":
+                  res.payload = {
+                      fc: 3,
+                      unitid: settings.unitId,
+                      address: 3537,
+                      quantity: 4,
+                      };
+                  res.topic = "reactiveEnergyImpP3";
+                  res.format = "int64";
+                break;
+                case 59:
+                case "apparentEnergyImpP1":
+                  res.payload = {
+                      fc: 3,
+                      unitid: settings.unitId,
+                      address: 3541,
+                      quantity: 4,
+                      };
+                  res.topic = "apparentEnergyImpP1";
+                  res.format = "int64";
+                break;
+                case 60:
+                case "apparentEnergyImpP2":
+                  res.payload = {
+                      fc: 3,
+                      unitid: settings.unitId,
+                      address: 3545,
+                      quantity: 4,
+                      };
+                  res.topic = "apparentEnergyImpP2";
+                  res.format = "int64";
+                break;
+                case 61:
+                case "apparentEnergyImpP3":
+                  res.payload = {
+                      fc: 3,
+                      unitid: settings.unitId,
+                      address: 3549,
+                      quantity: 4,
+                      };
+                  res.topic = "apparentEnergyImpP3";
+                  res.format = "int64";
+                break;
+                case 62:
+                case "toEnergyActImpRate1":
+                  res.payload = {
+                      fc: 3,
+                      unitid: settings.unitId,
+                      address: 4195,
+                      quantity: 4,
+                      };
+                  res.topic = "toEnergyActImpRate1";
+                  res.format = "int64";
+                break;
+                case 63:
+                case "toEnergyActImpRate2":
+                  res.payload = {
+                      fc: 3,
+                      unitid: settings.unitId,
+                      address: 4199,
+                      quantity: 4,
+                      };
+                  res.topic = "toEnergyActImpRate2";
+                  res.format = "int64";
+                break;
+                case 64:
+                case "toEnergyActImpRate3":
+                  res.payload = {
+                      fc: 3,
+                      unitid: settings.unitId,
+                      address: 4203,
+                      quantity: 4,
+                      };
+                  res.topic = "toEnergyActImpRate3";
+                  res.format = "int64";
+                break;
+                case 65:
+                case "toEnergyActImpRate4":
+                  res.payload = {
+                      fc: 3,
+                      unitid: settings.unitId,
+                      address: 4207,
+                      quantity: 4,
+                      };
+                  res.topic = "toEnergyActImpRate4";
+                  res.format = "int64";
+                break;
                 
             }
           
