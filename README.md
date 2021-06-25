@@ -28,6 +28,9 @@ Wire the second output of the `Modbus Flex Getter` to the input of the `converte
 ### Meter data 
 ![data-config](docs/data-config.png)
 
+### Sample flow
+![sample-flow](docs/data-config.png)
+
 ## Equipment Compatibility
 
 This module has been developed and tested on:
