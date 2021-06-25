@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-schneider-metsepm3200",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Node to read Schneider PM3200 over Modbus TCP/IP",
   "author": "Nicolò Toscani",
   "license": "MIT",
@@ -29,5 +29,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NicoloToscani/node-red-contrib-schneider-metsepm3200.git"
-  }
+  },
+  "dependencies": {}
 }
