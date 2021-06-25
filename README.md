@@ -23,6 +23,8 @@ Use the `converter` node to convert the values from the modbus response into hum
 
 Wire the second output of the `Modbus Flex Getter` to the input of the `converter`.
 
+![data-config](docs/data-config.png)
+
 ## Equipment Compatibility
 
 This module has been developed and tested on:
