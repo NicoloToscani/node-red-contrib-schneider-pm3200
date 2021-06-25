@@ -29,7 +29,7 @@ Wire the second output of the `Modbus Flex Getter` to the input of the `converte
 ![data-config](docs/data-config.png)
 
 ### Sample flow
-![sample-flow](docs/data-config.png)
+![sample-flow](docs/sample-flow.png)
 
 ## Equipment Compatibility
 
