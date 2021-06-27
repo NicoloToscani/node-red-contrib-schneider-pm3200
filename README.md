@@ -87,7 +87,7 @@ List of meter data:
 ### Sample flow
 ![sample-flow](docs/sample-flow.png)
 
-## Equipment Compatibility
+## Equipment compatibility
 
 This module has been developed and tested on:
 + PowerLogic PM3250
