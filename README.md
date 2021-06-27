@@ -40,6 +40,19 @@ List of meter data:
 |  Voltage L2-N                 | V                     | Float32       |
 |  Voltage L3-N                 | V                     | Float32       |
 |  Voltage L-N Avg              | V                     | Float32       |
+|  Active power phase 1         | kW                    | Float32       |
+|  Active power phase 2         | kW                    | Float32       |
+|  Active power phase 3         | kW                    | Float32       |
+|  Total active power           | kW                    | Float32       |
+|  Reactive power phase 1       | kVAR                  | Float32       |
+|  Reactive power phase 2       | kVAR                  | Float32       |
+|  Reactive power phase 3       | kVAR                  | Float32       |
+|  Total reactive power         | kVAR                  | Float32       |
+|  Apparent power phase 1       | kVA                   | Float32       |
+|  Apparent power phase 2       | kVA                   | Float32       |
+|  Apparent power phase 3       | kVA                   | Float32       |
+|  Total apparent power         | kVA                   | Float32       |
+
 
 
 ### Meter data 
