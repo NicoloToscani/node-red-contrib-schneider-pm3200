@@ -24,13 +24,15 @@ Use the `converter` node to convert the values from the modbus response into hum
 Wire the second output of the `Modbus Flex Getter` to the input of the `converter`.
 
 ## Usage
-List of measurements :
+List of meter data:
 
-| Address                       | Step7 equivalent      | JS Data type  | Description |
-| ----------------------------- | --------------------- | ------------- | ----------- |
-| `DB5,X0.1`                    | `DB5.DBX0.1`          | Boolean       | Bit 1 of byte 0 of DB 5 |
-| `DB23,B1` or `DB23,BYTE1`     | `DB23.DBB1`           | Number        | Byte 1 (0-255) of DB 23 |
-| `DB100,C2` or `DB100,CHAR2`   | `DB100.DBB2`          | String        | Byte 2 of DB 100 as a Char |
+| Measure                       | Units                 | Type          | 
+| ----------------------------- | --------------------- | ------------- | 
+|  I1: phase 1 current          | A                     | Float32       | 
+|  I2: phase 2 current          | A                     | Float32       |
+|  I3: phase 3 current          | A                     | Float32       |
+|  Current Avg                  | A                     | Float32       |
+
 
 ### Meter data 
 ![data-config](docs/data-config.png)
