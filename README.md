@@ -52,11 +52,32 @@ List of meter data:
 |  Apparent power phase 2            | kVA                   | Float32       |
 |  Apparent power phase 3            | kVA                   | Float32       |
 |  Total apparent power              | kVA                   | Float32       |
-|  Power factor phase 1              |                       | Float32       |
-|  Power factor phase 2              |                       | Float32       |
-|  Power factor phase 3              |                       | Float32       |
-|  Power factor total                |                       | Float32       |
-|  Load type (capacitive, inductive) |                       | Float32       |
+|  Power factor phase 1              | -                     | Float32       |
+|  Power factor phase 2              | -                     | Float32       |
+|  Power factor phase 3              | -                     | Float32       |
+|  Power factor total                | -                     | Float32       |
+|  Load type (capacitive, inductive) | -                     | String        |
+|  Current unbalance I1              | %                     | Float32       |
+|  Current unbalance I2              | %                     | Float32       |
+|  Current unbalance I3              | %                     | Float32       |
+|  Current unbalance worst           | %                     | Float32       |
+|  Voltage unbalance L1-L2           | %                     | Float32       |
+|  Voltage unbalance L2-L3           | %                     | Float32       |
+|  Voltage unbalance L3-L1           | %                     | Float32       |
+|  Voltage unbalance L-L Worst       | %                     | Float32       |
+|  Voltage unbalance L1-N            | %                     | Float32       |
+|  Voltage unbalance L2-N            | %                     | Float32       |
+|  Voltage unbalance L3-N            | %                     | Float32       |
+|  Voltage unbalance L-N worst       | %                     | Float32       |
+|  Tangent phi total                 | -                     | Float32       |
+|  Frequency                         | Hz                    | Float32       |
+|  Temperature                       | °C                    | Float32       |
+|  Total active energy import        | Wh                    | Int64         |
+|  Total active energy export        | Wh                    | Int64         |
+|  Total reactive energy import      | VARh                  | Int64         |
+|  Total reactive energy export      | VARh                  | Int64         |
+|  Total apparent energy import      | VAh                   | Int64         |
+|  Total apparent energy export      | VAh                   | Int64         |
 
 
 
