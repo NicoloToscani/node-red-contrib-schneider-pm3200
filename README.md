@@ -26,32 +26,37 @@ Wire the second output of the `Modbus Flex Getter` to the input of the `converte
 ## Usage
 List of meter data:
 
-| Measure                       | Units                 | Type          | 
-| ----------------------------- | --------------------- | ------------- | 
-|  I1: phase 1 current          | A                     | Float32       | 
-|  I2: phase 2 current          | A                     | Float32       |
-|  I3: phase 3 current          | A                     | Float32       |
-|  Current Avg                  | A                     | Float32       |
-|  Voltage L1-L2                | V                     | Float32       |
-|  Voltage L2-L3                | V                     | Float32       |
-|  Voltage L3-L1                | V                     | Float32       |
-|  Voltage L-L Avg              | V                     | Float32       |
-|  Voltage L1-N                 | V                     | Float32       |
-|  Voltage L2-N                 | V                     | Float32       |
-|  Voltage L3-N                 | V                     | Float32       |
-|  Voltage L-N Avg              | V                     | Float32       |
-|  Active power phase 1         | kW                    | Float32       |
-|  Active power phase 2         | kW                    | Float32       |
-|  Active power phase 3         | kW                    | Float32       |
-|  Total active power           | kW                    | Float32       |
-|  Reactive power phase 1       | kVAR                  | Float32       |
-|  Reactive power phase 2       | kVAR                  | Float32       |
-|  Reactive power phase 3       | kVAR                  | Float32       |
-|  Total reactive power         | kVAR                  | Float32       |
-|  Apparent power phase 1       | kVA                   | Float32       |
-|  Apparent power phase 2       | kVA                   | Float32       |
-|  Apparent power phase 3       | kVA                   | Float32       |
-|  Total apparent power         | kVA                   | Float32       |
+| Measure                            | Units                 | Type          | 
+| ---------------------------------- | --------------------- | ------------- | 
+|  I1: phase 1 current               | A                     | Float32       | 
+|  I2: phase 2 current               | A                     | Float32       |
+|  I3: phase 3 current               | A                     | Float32       |
+|  Current Avg                       | A                     | Float32       |
+|  Voltage L1-L2                     | V                     | Float32       |
+|  Voltage L2-L3                     | V                     | Float32       |
+|  Voltage L3-L1                     | V                     | Float32       |
+|  Voltage L-L Avg                   | V                     | Float32       |
+|  Voltage L1-N                      | V                     | Float32       |
+|  Voltage L2-N                      | V                     | Float32       |
+|  Voltage L3-N                      | V                     | Float32       |
+|  Voltage L-N Avg                   | V                     | Float32       |
+|  Active power phase 1              | kW                    | Float32       |
+|  Active power phase 2              | kW                    | Float32       |
+|  Active power phase 3              | kW                    | Float32       |
+|  Total active power                | kW                    | Float32       |
+|  Reactive power phase 1            | kVAR                  | Float32       |
+|  Reactive power phase 2            | kVAR                  | Float32       |
+|  Reactive power phase 3            | kVAR                  | Float32       |
+|  Total reactive power              | kVAR                  | Float32       |
+|  Apparent power phase 1            | kVA                   | Float32       |
+|  Apparent power phase 2            | kVA                   | Float32       |
+|  Apparent power phase 3            | kVA                   | Float32       |
+|  Total apparent power              | kVA                   | Float32       |
+|  Power factor phase 1              |                       | Float32       |
+|  Power factor phase 2              |                       | Float32       |
+|  Power factor phase 3              |                       | Float32       |
+|  Power factor total                |                       | Float32       |
+|  Load type (capacitive, inductive) |                       | Float32       |
 
 
 
