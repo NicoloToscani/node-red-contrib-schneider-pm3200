@@ -14,7 +14,7 @@ Alternatively, run the following command in your Node-RED user directory - typic
 ### pm3200 node
 Use the `pm3200` node to configure which information you want to request from the gateway.
 
-Wire the output of the `pm5000` to the input of the `Modbus Flex Getter` from 'node-red-contrib-modbus' modules.
+Wire the output of the `pm5000` to the input of the `Modbus Flex Getter` from `node-red-contrib-modbus` modules.
 
 Enable check box `Keep Msg Properties` in the `Modbus Flex Getter` properties.
 
